@@ -1,0 +1,42 @@
+{
+  "name": "navadhiti",
+  "version": "1.0.0",
+  "description": "\"Zoho Contact Manager\"",
+  "main": "index.js",
+  "author": "soundhar <soudharsaminathan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config=webpack.dev.config.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/lab": "^5.0.0-alpha.63",
+    "@mui/material": "^5.2.4",
+    "date-fns": "^2.28.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@emotion/babel-plugin": "^11.3.0",
+    "@mui/styles": "^5.2.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.2.5",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "workbox-webpack-plugin": "^6.4.1"
+  }
+}

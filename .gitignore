@@ -1,0 +1,13 @@
+/dist
+node_modules
+
+##TEST
+**/**/*tmp.js
+src/Temp/
+
+##VSCODE
+.vscode
+
+
+##Deploy
+hosting.*
